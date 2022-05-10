@@ -69,6 +69,7 @@ section {
     padding: 60px;
 }
 /*Hero Style Start*/
+/* homepage hero*/
 .hero{
     height: 600px;
     background-image: url("../images/hero-bg.jpeg");
@@ -76,7 +77,13 @@ section {
     background-position: center;
     position: relative;
 }
-
+/* secondary page hero */
+.hero-secondary {
+    margin: 20px;
+    background-color: black;
+    font-size: 20px;
+    color: red;
+}
 .hero-form {
     color: #024e76;
     background-color: #fce138;
@@ -276,3 +283,16 @@ section {
 }
 
 /* Reach out styles end */
+
+.page-title {
+    color: #fce138;
+    border-bottom: 4px solid #fce138;
+    padding: 0 80px 15px 80px;
+    font-weight: normal;
+    font-size: 42px;
+    font-style: italic;
+}
+
+.page-title h2 {
+    display: inline-block;
+}
